@@ -1,0 +1,114 @@
+.alter-nav-size {
+    font-size: .7rem;
+}
+.vertical-line {
+    border-left: 1px solid black;
+    height: 100%;
+    display: inline-block;
+}
+.nav-bg-dokkho {
+    background-color: #56d074c7 !important;
+}
+
+/* BOOTSTRAP CLASSES OVERRIDING */
+.dropdown-menu {
+    border-radius: 0rem;
+}
+
+.inner-addon {
+    position: relative;
+  }
+  
+  /* style glyph */
+  .inner-addon .bi {
+    position: absolute;
+    padding: 6px;
+    margin-right: 8px;
+    pointer-events: none;
+  }
+
+  .search-rad {
+      border-radius: 2rem;
+  }
+  
+  /* align glyph */
+  .left-addon .bi  { left:  0px;}
+  .right-addon .bi { right: 0px;}
+  
+  /* add padding  */
+  .left-addon input  { padding-left:  30px; }
+  .right-addon input { padding-right: 30px; }
+
+  .hero{
+      background-image: url('../img/art2.jpg');
+      background-repeat: no-repeat;
+      /* background-attachment: fixed; */
+      background-position: center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 80vh;
+  }
+
+  .hero-bg {
+      background-color:rgba(57, 74, 73, 0.36)
+  }
+
+  .artist-background {
+    background-image: url('../img/artist-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50vh;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  }
+
+  .decor-background {
+    background-image: url('../img/decor.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 30vh;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  }
+
+  .overlay{
+    background: rgba(39,62,84,0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
+.thumb{
+    height: 75px;
+    width: 75px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    background-color: #000 !important;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.designer-line{
+    width: 200px;
+}
+
+.feature-title{
+    color: #2c86a2 !important;
+}

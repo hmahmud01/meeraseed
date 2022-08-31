@@ -1,0 +1,59 @@
+.h-img {
+    height: 80vh !important;
+}
+
+.artist-background {
+    background-image: url('../images/artist-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50vh;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  }
+
+  .about-background {
+    background-image: url('../images/star.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50vh;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  }
+
+  .info-background {
+    background-image: url('../images/decor.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50vh;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  }
+
+  .text-justify {
+    text-align: justify;
+    text-justify: inter-character;
+  }
+
+
+  .overlay{
+    background: rgba(39,62,84,0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
+ul.navbar li{
+  display: inline;
+}

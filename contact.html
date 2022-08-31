@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEERA DEMO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/custom.css">
+</head>
+
+<body>
+    <div class="bg-light p-2">
+        <p class="m-0 text-dark text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+        </p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Company Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="abou.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Other Information</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="info.html">Some info</a></li>
+                            <li><a class="dropdown-item" href="info.html">Some info 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="info.html">INFO 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a class="btn btn-danger rounded-0" href="contact.html">Contact US</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="sliding-area">
+        <div class="">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item h-img active">
+                        <img src="images/1.jpg" class="d-block w-100 h-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-img">
+                        <img src="images/2.jpg" class="d-block w-100 h-70" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-img">
+                        <img src="images/3.jpg" class="d-block w-100 h-70" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cards">
+        <div class="container my-5 p-5">
+            <div class="">
+                <p class="fs-1 fw-bold text-center">Head Line</p>
+                <p class="fs-4 text-mute text-center">Sub Line</p>
+
+                <p class="lead text-justify mb-5">It is a long established fact that a reader will be distracted by the
+                    readable content
+                    of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed to using 'Content here, content here', making it look
+                    like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                    their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="artist-dialouge">
+        <div class="container">
+            <div class="row g-0 mb-5">
+                <div class="col-md-6 col-lg-6 col-sm-6 h-100">
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.1567380500533!2d90.4036088154019!3d23.741789495021187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b88d62f52017%3A0x49dc02db1bfe4ed8!2sBaily%20Rd%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1661925091247!5m2!1sen!2sbd"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6 h-100">
+                    <div class="px-5">
+                        <p class="lead fw-bold">Contact Us</p>
+                        <form action="">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Phone Number</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Address address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Comments</label>
+                            </div>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </form>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="row g-0">
+            <div class="col-md-12 col-lg-12 col-sm-12">
+                <div class="bg-dark text-white">
+                    <div class="px-5 py-5 text-light d-flex align-self-center">
+                        <div class="container">
+                            <h1 class="mb-5">Necessary Links</h1>
+                            <div class="row align-items-center">
+                                <div class="col-md-3 d-flex flex-column justify-content-between text-white">
+                                    <a href="abou.html" class="text-white text-decoration-none">About Us</a><br>
+                                    <a href="info.html" class="text-white text-decoration-none">Mission And
+                                        Vision</a><br>
+                                    <a href="contact.html" class="text-white text-decoration-none">Contact Us</a><br>
+                                </div>
+                                <div class="col-md-3 d-flex flex-column justify-content-between">
+                                    <a href="" class="text-white text-decoration-none">LINKS</a><br>
+                                    <a href="" class="text-white text-decoration-none">LINKS</a><br>
+                                </div>
+                                <div class="col-md-3 d-flex flex-column justify-content-between">
+                                    <a href="" class="text-white text-decoration-none">LINKS</a><br>
+                                    <a href="" class="text-white text-decoration-none">LINKS</a><br>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <p class="m-0"><i class="bi bi-building"></i> Office: Office Address</p>
+                                    <p class="m-0"><i class="bi bi-phone"></i> Phone: +88</p>
+                                    <p class="m-0"><i class="bi bi-whatsapp"></i> Phone: +88</p>
+                                    <p class="m-0"><i class="bi bi-envelope"></i> email: info@email.com</p>
+                                </div>
+                            </div>
+                            <p class="my-2 text-white text-center">Copyright @ 2022</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.slide-cards').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+        });
+    </script>
+</body>
+
+</html>

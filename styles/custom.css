@@ -1,9 +1,37 @@
 .h-img {
-    height: 80vh !important;
+    height: 92vh !important;
+}
+
+.carousel-img:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.5);
+}
+
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.img-shade {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .artist-background {
-    background-image: url('../images/artist-background.jpg');
+    background-image: url('/assets/img/sbc/index.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -16,7 +44,7 @@
   }
 
   .about-background {
-    background-image: url('../images/star.jpg');
+    background-image: url('/assets/img/sbc/about.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -29,7 +57,7 @@
   }
 
   .info-background {
-    background-image: url('../images/decor.jpg');
+    background-image: url('/assets/img/sbc/info.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
